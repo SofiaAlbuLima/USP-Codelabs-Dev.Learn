@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+/* apresentação ganesh - início */
+.background_ganesh{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    z-index: -1000;
+    top: 0;
+    opacity: 30%;
+}
+.apresentacao_ganesh{
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+}
+.apresentacao_ganesh article{
+    display: grid;
+    justify-content: center;
+    margin: 10vh auto 10vh auto;
+    align-items: center;
+    text-align: center;
+    gap: 2vh;
+}
+.apresentacao_ganesh article img{
+    width: 22vw;
+    margin: auto;
+}
+.apresentacao_ganesh article h1{
+    color: white;
+    font-size: 45px;
+}
+.apresentacao_ganesh article h3{
+    color: white;
+    font-size: 18px;
+}
+
+.faixa_mensagem{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 100%;
+    background-color: #42daa2;
+    text-align: center;
+    font-size: 18px;
+}
+/* apresentação ganesh - fim */
+
+/* Nossa excelência - início */
+
+/* Nossa excelência - fim */

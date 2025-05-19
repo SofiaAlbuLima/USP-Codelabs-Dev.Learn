@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'JetBraisMono';
+    src: local(JetBraisMono),
+        url('../fonts/JetBrainsMono-VariableFont_wght.ttf');
+}
+
+h1, h2, h3, p, ul{
+    font-family: 'JetBraisMono';
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+}
+
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    min-height: 70px;
+    position: fixed;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    justify-content: space-between;
+    padding: 0vh 17vw;
+}
+.cabecalho figure{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.cabecalho figure img{
+    height: auto;
+    max-width: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+.cabecalho figure h1{
+    color: white;
+    font-size: 25px;
+}
+.cabecalho ul{
+    display: flex;
+    gap: 5vh;
+}
+.cabecalho ul li{
+    list-style: none;
+    color: white;
+}
+.cabecalho ul li:not(.barra):hover{
+    color: #42daa2;
+}
