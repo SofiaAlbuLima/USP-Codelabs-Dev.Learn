@@ -9,17 +9,21 @@
         url('../fonts/JetBrainsMono-VariableFont_wght.ttf');
 }
 
-h1, h2, h3, p, ul{
+/* estilos padrões das páginas - inicio */
+h1, h2, h3, p, ul, button{
     font-family: 'JetBraisMono';
     color: white;
 }
 h1{
     font-size: 45px;
 }
-h3{
+h2{
     font-size: 20px;
 }
-p{
+h3{
+    font-size: 18px;
+}
+p, button{
     font-size: 15px;
 }
 a {
@@ -28,6 +32,12 @@ a {
   font-weight: inherit;
   cursor: pointer;
 }
+main{
+    width: 100%;
+    padding: 10vh 0 0 0;
+}
+/* estilos padrões das páginas - fim */
+
 
 .cabecalho{
     width: 100%;

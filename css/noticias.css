@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.background_noticias{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1000;
+    opacity: 20%;
+}
+
+.mapa_do_site{
+    padding: 3vh 0 0 17.3vw;
+}
+.pagina_atual{
+    color: #42daa2;
+    text-decoration: underline;
+}
+
+.todas_as_noticias{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    padding: 5vh 0 8vh 0;
+    text-align: center;
+}
+.todas_as_noticias h1{
+    color: #42daa2;
+    margin-bottom: 4vh;
+}
+.lista_noticias{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-bottom: 5vh;
+    justify-content: center;
+}
+.lista_noticias li{
+    width: 61vw;
+    border-radius: 0 20px;
+    border: 2px white solid;
+    padding: 5vh 2vw;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.lista_noticias li:hover{
+    width: 62vw;
+    margin-left: -0.5vw;
+    background-color: rgba(15, 15, 15, 0.699);
+}
+.lista_noticias li article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.lista_noticias li h2{
+    color: #42daa2;
+}
+
+.todas_as_noticias figure{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+.todas_as_noticias figure button{
+    font-weight: 700;
+    border: none;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.todas_as_noticias figure button:first-child, .todas_as_noticias figure button:last-child{
+    background-color: #00000000;
+}
+.todas_as_noticias figure button:first-child:hover, .todas_as_noticias figure button:last-child:hover{
+    background-color: rgb(31, 31, 31);
+}
+
+.todas_as_noticias figure button:nth-child(2){
+    color: black;
+    background-color: #42daa2;
+}
+
+.todas_as_noticias figure button:nth-child(2):hover{
+    background-color: #30a077;
+}
