@@ -11,6 +11,16 @@
 
 h1, h2, h3, p, ul{
     font-family: 'JetBraisMono';
+    color: white;
+}
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 17px;
 }
 a {
   text-decoration: none;
@@ -43,7 +53,6 @@ a {
     cursor: pointer;
 }
 .cabecalho figure h1{
-    color: white;
     font-size: 25px;
 }
 .cabecalho ul{
@@ -52,7 +61,6 @@ a {
 }
 .cabecalho ul li{
     list-style: none;
-    color: white;
 }
 .cabecalho ul li:not(.barra):hover{
     color: #42daa2;
