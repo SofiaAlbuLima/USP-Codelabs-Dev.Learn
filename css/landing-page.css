@@ -116,6 +116,7 @@ body{
         left: 50%;
         transform: translate(-50%, 0);
         gap: 5vh;
+        z-index: 999;
     }
     .patrocinadores h1{
         color: black;
@@ -129,11 +130,34 @@ body{
         height: 80px;
     }
     .patrocinador2{
-        height: 50px;
+        height: 40px;
     }
 /* Patrocinadores - fim */
 
-/* Áreas de estudo */
+/* Áreas de estudo - início */
 .areas_de_estudo{
-    background-color: red;
+    display: grid;
 }
+.areas_de_estudo video{
+    opacity: 10%;
+    z-index: -1000;
+    position: absolute;
+    width: 100%;
+}
+.degrade{
+    background-image: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    z-index: -999;
+}
+.areas_de_estudo article{
+    margin: 35vh auto 15vh auto;
+    display: grid;
+    width: 65vw;
+    text-align: center;
+}
+.areas_de_estudo article h1{
+    margin-bottom: 2vh;
+}
+/* Áreas de estudo - fim */

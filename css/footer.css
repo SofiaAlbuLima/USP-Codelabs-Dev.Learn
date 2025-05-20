@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    height: 25vh;
+    border-top: 2px solid #42daa2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    gap: 16vh;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    list-style: none;
+}
+footer ul img{
+    height: 35px;
+}
+
+footer figure{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    width: 20vw;
+}
+footer figure img{
+    width: 35px;
+    height: 35px;
+}

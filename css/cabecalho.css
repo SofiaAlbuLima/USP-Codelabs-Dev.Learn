@@ -20,7 +20,7 @@ h3{
     font-size: 20px;
 }
 p{
-    font-size: 17px;
+    font-size: 15px;
 }
 a {
   text-decoration: none;
@@ -28,7 +28,6 @@ a {
   font-weight: inherit;
   cursor: pointer;
 }
-
 
 .cabecalho{
     width: 100%;
@@ -40,6 +39,7 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
     justify-content: space-between;
     padding: 0vh 17vw;
+    z-index: 1000;
 }
 .cabecalho figure{
     display: flex;
