@@ -11,7 +11,6 @@ body{
 .background_ganesh{
     width: 100%;
     margin: auto;
-    align-items: center;
     position: absolute;
     z-index: -1000;
     top: 0;
@@ -143,6 +142,8 @@ body{
     z-index: -1000;
     position: absolute;
     width: 100%;
+    margin: auto;
+    align-items: center;
 }
 .degrade{
     background-image: linear-gradient(rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
@@ -159,5 +160,97 @@ body{
 }
 .areas_de_estudo article h1{
     margin-bottom: 2vh;
+}
+
+.grafos_areas_de_estudo{
+    display: flex;
+    margin: 10vh 0 0 0 ;
+    height: 40vh;
+    position: relative;
+}
+.linha_grafos{
+    position: absolute;
+    height: 2px;
+    background-color: #757575;
+    transform-origin: 0 0;
+    z-index: 1;
+    pointer-events: none;
+}
+.grafo {
+    transition: all 0.3s ease; /* Suaviza o movimento */
+    position: absolute;
+    transform: translate(-50%, -50%); /* Centraliza melhor */
+}
+
+.grafo{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100px;
+    border: none;
+    background-color: #2e2c2f;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.2s ease;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    transform: translate(-50%, -50%);   
+}
+.grafo img{
+    width: 2vw;
+    transition: all 0.2s ease;
+}
+.spans_grafos{
+    position: absolute;
+}
+
+.areas_hover{
+    display: none;
+}
+.grafo:nth-child(1){ top: 80%; left: 10%;}
+.grafo:nth-child(2){ top: 20%; left: 30%;}
+.grafo:nth-child(3){ top: 40%; left: 50%;}
+.grafo:nth-child(4){ top: 10%; left: 70%;}
+.grafo:nth-child(5){ top: 50%; left: 90%;}
+
+.grafo:nth-child(1):hover{ top: 75%; left: 10%;}
+.grafo:nth-child(2):hover{ top: 15%; left: 30%;}
+.grafo:nth-child(3):hover{ top: 35%; left: 50%;}
+.grafo:nth-child(4):hover{ top: 5%; left: 70%;}
+.grafo:nth-child(5):hover{ top: 45%; left: 90%;}
+
+.grafo:hover{
+    width: 12vh;
+    height: 12vh;
+    background-color: #42daa2;
+}
+.grafo:hover img{
+    width: 2.5vw;
+}
+.grafo:hover .areas_hover{
+    display: block;
+}
+.grafo:hover .areas_img{
+    display: none;
+}
+
+.grafo span{
+    position: absolute;
+    background-color: #42daa2;
+    padding: 2vh;
+    color: black;
+    font-weight: 800;
+    z-index: 3;
+    border-radius: 20px 0;
+    width: auto;
+    transform: translate(6vw, -2vh);
+    display: none;
+    text-align: center;
+    left: 0;
+    width: auto;
+}
+.grafo:hover span{
+    display: block;
 }
 /* Áreas de estudo - fim */

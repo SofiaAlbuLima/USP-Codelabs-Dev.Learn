@@ -10,7 +10,7 @@
 }
 
 /* estilos padrões das páginas - inicio */
-h1, h2, h3, p, ul, button{
+h1, h2, h3, p, ul, button, span{
     font-family: 'JetBraisMono';
     color: white;
 }

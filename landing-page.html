@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GANESH</title>
+
+    <link rel="icon" href="./midias/imgs/logo/GaneshLogo.png">
+    <title>GANESH | Página inicial</title>
 
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/landing-page.css">
@@ -81,26 +83,41 @@
                     Cada área de estudo realiza reuniões semanais focadas
                     no desenvolvimento de minicursos, ferramentas e materiais
                     de estudo, com a maioria desses recursos disponíveis
-                    publicamente no <span class="cor_ganesh">[GitHub]</span>.
+                    publicamente no 
+                    <a href="https://github.com/ganesh-icmc">
+                        <span class="cor_ganesh">[GitHub]</span>.
+                    </a>
                 </p>
-                <figure>
-                    <button>
-                        <img src="" alt="">
+
+                <figure class="grafos_areas_de_estudo" id="grafos_ae">
+                    <button class="grafo" data-name="criptografia">
+                        <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_criptografia.svg" alt="">
+                        <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_criptografia.svg" alt="">             
+                        <span>Criptografia</span>
                     </button>
-                    <button>
-                        <img src="" alt="">
+
+                    <button class="grafo" data-name="engenharia_reversa">
+                        <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_engenharia_reversa.svg" alt="">
+                        <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_engenharia_reversa.svg" alt="">
+                        <span>Engenharia Reversa</span>
                     </button>
-                    <button>
-                        <img src="" alt="">
+
+                    <button class="grafo" data-name="hardware_hacking">
+                        <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_hardware_hacking.svg" alt="">
+                        <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_hardware_hacking.svg" alt="">
+                        <span>Hardware Hacking</span>
                     </button>
-                    <button>
-                        <img src="" alt="">
+
+                    <button class="grafo" data-name="rede">
+                        <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_rede.svg" alt="">
+                        <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_rede.svg" alt="">
+                        <span>Redes</span>
                     </button>
-                    <button>
-                        <img src="" alt="">
-                    </button>
-                    <button>
-                        <img src="" alt="">
+
+                    <button class="grafo" data-name="seguranca_web">
+                        <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_seguranca_web.svg" alt="">
+                        <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_seguranca_web.svg" alt="">
+                        <span>Segurança Web</span>
                     </button>
                 </figure>
             </article>
@@ -121,5 +138,7 @@
         </figure>
         <p  class="direitos_ganesh">© 2025 Ganesh</p>
     </footer>
+
+    <script src="./js/script_areas_de_estudo.js"></script>
 </body>
 </html>
