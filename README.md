@@ -29,17 +29,17 @@ No terminal, execute os seguintes comandos para rodar o servidor de forma global
 - Iniciar o Servidor: 'http-server'
 ⚠️ Importante: Sempre que abrir ou recarregar as páginas no navegador, utilize: Ctrl + F5
 
-## 📎 | Links das Páginas
+## 📎 | Links das Páginas (Após rodar o servidor)
 - Página Inicial: http://192.168.0.120:8080/landing-page.html
 - Página de Notícias: http://192.168.0.120:8080/noticias.html
 
 # 📷 | Imagens do projeto (1/2): Página inicial
-![alt text](image-6.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
+![alt text](./midias/imgs/readme/image-6.png)
+![alt text](./midias/imgs/readme/image-2.png)
+![alt text](./midias/imgs/readme/image-3.png)
+![alt text](./midias/imgs/readme/image-4.png)
+![alt text](./midias/imgs/readme/image-5.png)
 
 # 📷 | Imagens do projeto (2/2): Página de notícias
-![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](./midias/imgs/readme/image-7.png)
+![alt text](./midias/imgs/readme/image-8.png)
