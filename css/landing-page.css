@@ -30,7 +30,7 @@ body{
     text-align: center;
     gap: 2vh;
 }
-.apresentacao_ganesh article img{
+.apresentacao_ganesh article img, .apresentacao_ganesh article video{
     width: 22vw;
     margin: auto;
 }
@@ -59,12 +59,18 @@ body{
     margin: auto;
     padding: 15vh 0vh 28vh 0vh;
     background-color: black;
+    align-items: center;
 }
 .nossa_excelencia article{
     width: 30.5vw;
 }
-.nossa_excelencia article h1{
+.nossa_excelencia figure{
+    display: flex;
+}
+.h1_nossa_excelencia, .h1_nossa_excelencia_fim{
     color: white;
+}
+.h1_nossa_excelencia_fim{
     margin-bottom: 3vh;
 }
 .cor_ganesh{

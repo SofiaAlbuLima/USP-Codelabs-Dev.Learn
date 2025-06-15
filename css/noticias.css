@@ -76,26 +76,29 @@ body{
     justify-content: center;
     gap: 2vw;
 }
-.todas_as_noticias figure button{
+.todas_as_noticias figure button, .todas_as_noticias figure span{
     font-weight: 700;
     border: none;
     width: 4vw;
     height: 4vw;
-    cursor: pointer;
     border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .todas_as_noticias figure button:first-child, .todas_as_noticias figure button:last-child{
     background-color: #00000000;
+    cursor: pointer;
 }
 .todas_as_noticias figure button:first-child:hover, .todas_as_noticias figure button:last-child:hover{
     background-color: rgb(31, 31, 31);
 }
 
-.todas_as_noticias figure button:nth-child(2){
+.todas_as_noticias figure span:nth-child(2){
     color: black;
     background-color: #42daa2;
 }
 
-.todas_as_noticias figure button:nth-child(2):hover{
+.todas_as_noticias figure span:nth-child(2):hover{
     background-color: #30a077;
 }

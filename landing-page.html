@@ -14,18 +14,39 @@
 <body>
     <header>
         <nav class="cabecalho">
-            <a href="">
+            <a href="./landing-page.html">
                 <figure>
                         <img src="./midias/imgs/logo/GaneshLogoBranco.png" alt="">
-                        <h1>GANESH</h1>
+                        <h1 id="grupo1"></h1>
                 </figure>
             </a>
             <ul>
-                <li><a href="">[Sobre nós]</a></li>
+                <li><a href="./landing-page.html" id="sobre_nos"></a></li>
                 <li class="barra">/</li>
-                <li><a href="">[Notícias]</a></li>
+                <li><a href="./noticias.html" id="noticias"></a></li>
             </ul>
         </nav>
+
+        <aside class="idiomas" id="idiomas">
+            <div class="opcoes_idioma" id="opcoes_idioma">
+                <button class="opcao1">
+                    <img src="./midias/imgs/icones/idiomas/BR.svg" alt="">
+                    <h3>Pt-br</h3>
+                </button>
+                <button class="opcao2">
+                    <img src="./midias/imgs/icones/idiomas/US.svg" alt="">
+                    <h3>En-us</h3>
+                </button>
+            </div>
+
+            <div class="idioma_atual">
+                <img src="./midias/imgs/icones/idiomas/Pt-br.png" alt="" id="img_idioma_atual">
+                <h3 id="texto_idioma_atual">Pt-br</h3>
+                <button id="abrir_opcoes_idioma">
+                    <span class="triangulo" style="margin-top: 10px;"></span>
+                </button>
+            </div>
+        </aside>
     </header>
     
     <main>
@@ -35,36 +56,39 @@
                 Seu navegador não suporta vídeos HTML5.
             </video>
             <article>
-                <img src="./midias/imgs/logo/GaneshLogo.png" alt="">
-                <h1>GANESH</h1>
-                <h2>matériais didáticos - cursos especializados - workshops</h2>
+                <img id="logo" src="./midias/videos/gif logo ganesh.gif" alt="Logo">
+                
+                <h1 id="grupo"></h1>
+                <h2 id="subtitulo"></h2>
             </article>
         </section>
         
         <figure class="faixa_mensagem">
-            <h2>O Maior grupo extracurricular de segurança da informação do Brasil</h2>
+            <h2 id="faixa_mensagem"></h2>
         </figure>
 
         <section class="nossa_excelencia">
             <article>
-                <h1>[NOSSA <br>
-                    <span class="cor_ganesh">EXCELÊNCIA</span>]
-                </h1>
-                <p>
-                    Nosso desempenho consistente em classificações elevadas nas competições
-                    de <span class="cor_ganesh">Capture the Flag (CTF)</span>, nos posicionando entre os melhores times do
-                    Brasil e como a principal equipe universitária do país.
-                </p>
+                <figure>
+                    <h1 class="h1_nossa_excelencia">[</h1>
+                        <h1 id="nossa_excelencia1"></h1>
+                </figure>
+                <figure>
+                        <h1 class="cor_ganesh" id="nossa_excelencia2"></h1>
+                    <h1 class="h1_nossa_excelencia_fim">]</h1>
+                </figure>
+                
+                <p id="descricao_destacada"></p>
             </article>
             <article class="article_p_excelencia">
-                <p class="p_esquerda">Altas classificações nos torneios</p>
-                <p class="p_meio">Entre os melhores times do Brasil</p>
-                <p class="p_direita">Maior equipe universitária do país</p>
+                <p class="p_esquerda" id="article_p_excelencia1">Altas classificações nos torneios</p>
+                <p class="p_meio" id="article_p_excelencia2">Entre os melhores times do Brasil</p>
+                <p class="p_direita" id="article_p_excelencia3">Maior equipe universitária do país</p>
             </article>
         </section>
 
         <figure class="patrocinadores">
-            <h1>[PATROCINADORES]</h1>
+            <h1 id="patrocinadores"></h1>
             <article>
                 <img class="patrocinador1" src="./midias/imgs/icones/patrocinador1.png" alt="">
                 <img class="patrocinador2"  src="./midias/imgs/icones/patrocinador2.png" alt="">
@@ -78,46 +102,38 @@
             </video>
             <span class="degrade"></span>
             <article>
-                <h1>[<span class="cor_ganesh">ÁREAS DE ESTUDO</span>]</h1>
-                <p> 
-                    Cada área de estudo realiza reuniões semanais focadas
-                    no desenvolvimento de minicursos, ferramentas e materiais
-                    de estudo, com a maioria desses recursos disponíveis
-                    publicamente no 
-                    <a href="https://github.com/ganesh-icmc">
-                        <span class="cor_ganesh">[GitHub]</span>.
-                    </a>
-                </p>
+                <h1>[<span class="cor_ganesh" id="areas_de_estudo"></span>]</h1>
+                <p id="areas_de_estudo_p"></p>
 
                 <figure class="grafos_areas_de_estudo" id="grafos_ae">
                     <button class="grafo" data-name="criptografia">
                         <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_criptografia.svg" alt="">
                         <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_criptografia.svg" alt="">             
-                        <span>Criptografia</span>
+                        <span id="grafo1"></span>
                     </button>
 
                     <button class="grafo" data-name="engenharia_reversa">
                         <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_engenharia_reversa.svg" alt="">
                         <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_engenharia_reversa.svg" alt="">
-                        <span>Engenharia Reversa</span>
+                        <span id="grafo2"></span>
                     </button>
 
                     <button class="grafo" data-name="hardware_hacking">
                         <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_hardware_hacking.svg" alt="">
                         <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_hardware_hacking.svg" alt="">
-                        <span>Hardware Hacking</span>
+                        <span id="grafo3"></span>
                     </button>
 
                     <button class="grafo" data-name="rede">
                         <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_rede.svg" alt="">
                         <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_rede.svg" alt="">
-                        <span>Redes</span>
+                        <span id="grafo4"></span>
                     </button>
 
                     <button class="grafo" data-name="seguranca_web">
                         <img class="areas_img" src="./midias/imgs/icones/areas de estudo/icon_seguranca_web.svg" alt="">
                         <img class="areas_hover" src="./midias/imgs/icones/areas de estudo/hover/hover_seguranca_web.svg" alt="">
-                        <span>Segurança Web</span>
+                        <span id="grafo5"></span>
                     </button>
                 </figure>
             </article>
@@ -139,6 +155,15 @@
         <p  class="direitos_ganesh">© 2025 Ganesh</p>
     </footer>
 
+
+    <script>
+        // Tempo que o GIF leva pra rodar uma vez (em milissegundos)
+        setTimeout(() => {
+            document.getElementById('logo').src = './midias/imgs/logo/GaneshLogo.png';
+        }, 2100);
+    </script>
     <script src="./js/script_areas_de_estudo.js"></script>
+    <script src="./js/script_linguagens.js"></script>
+    <script src="./js/script_json.js"></script>
 </body>
 </html>

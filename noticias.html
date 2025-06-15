@@ -14,18 +14,39 @@
 <body>
     <header>
         <nav class="cabecalho">
-            <a href="">
+            <a href="./landing-page.html">
                 <figure>
                         <img src="./midias/imgs/logo/GaneshLogoBranco.png" alt="">
-                        <h1>GANESH</h1>
+                        <h1 id="grupo1"></h1>
                 </figure>
             </a>
             <ul>
-                <li><a href="">[Sobre nós]</a></li>
+                <li><a href="./landing-page.html" id="sobre_nos"></a></li>
                 <li class="barra">/</li>
-                <li><a href="">[Notícias]</a></li>
+                <li><a href="./noticias.html" id="noticias"></a></li>
             </ul>
         </nav>
+
+        <aside class="idiomas" id="idiomas">
+            <div class="opcoes_idioma" id="opcoes_idioma">
+                <button class="opcao1">
+                    <img src="./midias/imgs/icones/idiomas/BR.svg" alt="">
+                    <h3>Pt-br</h3>
+                </button>
+                <button class="opcao2">
+                    <img src="./midias/imgs/icones/idiomas/US.svg" alt="">
+                    <h3>En-us</h3>
+                </button>
+            </div>
+
+            <div class="idioma_atual">
+                <img src="./midias/imgs/icones/idiomas/Pt-br.png" alt="" id="img_idioma_atual">
+                <h3 id="texto_idioma_atual">Pt-br</h3>
+                <button id="abrir_opcoes_idioma">
+                    <span class="triangulo"></span>
+                </button>
+            </div>
+        </aside>
     </header>
 
     <main>
@@ -35,38 +56,16 @@
         </video>
 
         <p class="mapa_do_site">
-            <a href="">Página inicial</a> / <span class="pagina_atual">Notícias</span>
+            <a href="" id="mapa_1"></a> / <span class="pagina_atual" id="mapa_2"></span>
         </p>
 
         <section class="todas_as_noticias">
-            <h1>[NOTÍCIAS]</h1>
-            <ul class="lista_noticias">
-                <li>
-                    <article>
-                        <h2>[TOP SECRET] O maior segredo do ganesh</h2>
-                        <h3>20 - 05 - 2025</h3>
-                    </article>
-                    <p>Bom gente, hoje vamos ensinar como bandecar duas vezes na mesma refeição do R.U. 1º p...</p>
-                </li>
-                <li>
-                    <article>
-                        <h2>[TOP SECRET] O maior segredo do ganesh</h2>
-                        <h3>20 - 05 - 2025</h3>
-                    </article>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </li>
-                <li>
-                    <article>
-                        <h2>[TOP SECRET] O maior segredo do ganesh</h2>
-                        <h3>20 - 05 - 2025</h3>
-                    </article>
-                    <p>Bom gente, hoje vamos ensinar como bandecar duas vezes na mesma refeição do R.U. 1º p...</p>
-                </li>
-            </ul>
+            <h1 id="noticias_titulo"></h1>
+            <ul class="lista_noticias" id="lista_noticias"></ul>
             <figure>
-                <button><</button>
-                <button>1</button>
-                <button>></button>
+                <button id="btn_anterior">&lt;</button>
+                <span id="botoes_paginas">1</span>
+                <button id="btn_proximo">&gt;</button>
             </figure>
         </section>
     </main>
@@ -85,5 +84,10 @@
         </figure>
         <p  class="direitos_ganesh">© 2025 Ganesh</p>
     </footer>
+
+    
+    <script src="./js/script_linguagens.js"></script>
+    <script src="./js/script_json.js"></script>
+    <script src="./js/script_paginacao.js"></script>
 </body>
 </html>

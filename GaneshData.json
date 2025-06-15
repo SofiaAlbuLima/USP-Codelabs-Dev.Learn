@@ -1,0 +1,146 @@
+{
+    "informacoes": {
+        "Pt-br": {
+            "sobre_nos": "[Sobre nós]",
+            "noticias": "[Notícias]",
+            "grupo1": "GANESH",
+            "grupo": "GANESH",
+            "subtitulo": "matériais didáticos - cursos especializados - workshops",
+            "faixa_mensagem": "O Maior grupo extracurricular de segurança da informação do Brasil",
+
+            "nossa_excelencia1": "NOSSA",
+            "nossa_excelencia2": "EXCELÊNCIA",
+            "descricao_destacada": "Nosso desempenho consistente em classificações elevadas nas competições de <span class=\"cor_ganesh\">Capture the Flag (CTF)</span>, nos posicionando entre os melhores times do Brasil e como a principal equipe universitária do país.",
+            "article_p_excelencia1": "Altas classificações nos torneios",
+            "article_p_excelencia2": "Entre os melhores times do Brasil",
+            "article_p_excelencia3": "Maior equipe universitária do país",
+
+            "patrocinadores": "[PATROCINADORES]",
+            "areas_de_estudo": "ÁREAS DE ESTUDO",
+            "areas_de_estudo_p": "Cada área de estudo realiza reuniões semanais focadas no desenvolvimento de minicursos, ferramentas e materiais de estudo, com a maioria desses recursos disponíveis publicamente no <a href=\"https://github.com/ganesh-icmc\"><span class=\"cor_ganesh\">[GitHub]</span></a>.",
+            "grafo1": "Criptografia",
+            "grafo2": "Engenharia Reversa",
+            "grafo3": "Hardware Hacking",
+            "grafo4": "Redes",
+            "grafo5": "Segurança Web"
+        },
+        "En-us": {
+            "sobre_nos": "[About Us]",
+            "noticias": "[News]",
+            "grupo1": "GANESH",
+            "grupo": "GANESH",
+            "subtitulo": "Educational materials - Specialized courses - Hands-on workshops",
+            "faixa_mensagem": "The Biggest Extracurricular Cybersecurity Group in Brazil",
+
+            "nossa_excelencia1": "OUR",
+            "nossa_excelencia2": "EXCELLENCE",
+            "descricao_destacada": "Our consistent high rankings in <span class=\"cor_ganesh\">Capture The Flag (CTF)</span> competitions place us among Brazil’s top teams and solidify our position as the country’s leading university cybersecurity team.",
+            "article_p_excelencia1": "Top-tier tournament placements",
+            "article_p_excelencia2": "Ranked among Brazil’s best teams",
+            "article_p_excelencia3": "Largest university team in the country",
+
+            "patrocinadores": "[SPONSORS]",
+            "areas_de_estudo": "STUDY FIELDS",
+            "areas_de_estudo_p": "Each study area holds weekly meetings focused on developing: Crash courses, Security tools and Study materials. Most of these resources are publicly available on <a href=\"https://github.com/ganesh-icmc\"><span class=\"cor_ganesh\">[GitHub]</span></a>.",
+            "grafo1": "Cryptography",
+            "grafo2": "Reverse Engineering",
+            "grafo3": "Hardware Hacking",
+            "grafo4": "Networking",
+            "grafo5": "Web Security"
+        }
+    },
+    "noticias": {
+        "Pt-br": {
+            "mapa_1": "Página inicial",
+            "mapa_2": "Notícias",
+            "noticias_titulo": "[NOTÍCIAS]",
+            	
+            "0": { 
+                "titulo": "Ganesh vence a competição de segurança da informação da USP", 
+                "descricao": "No evento CodelabHacks da USP ganesh fica em primeiro lugar no evento, mostrando grande habilidade e inovação.",
+                "data": "14 - 06 - 2025"
+                },
+            "1": { 
+                "titulo": "Ganesh descobre vulnerabilidade crítica em sistema bancário", 
+                "descricao": "Durante uma pesquisa independente, Ganesh identificou uma falha crítica em um sistema bancário, ajudando a evitar possíveis ataques cibernéticos.",
+                "data": "13 - 06 - 2025"
+                },
+            "2": { 
+                "titulo": "Ganesh lança ferramenta de análise de malware", 
+                "descricao": "A nova ferramenta desenvolvida por Ganesh permite identificar e neutralizar malwares avançados com maior eficiência.",
+                "data": "12 - 06 - 2025"
+                },
+            "3": { 
+                "titulo": "Ganesh ministra workshop sobre defesa cibernética", 
+                "descricao": "Ganesh liderou um workshop prático sobre estratégias de defesa cibernética, atraindo especialistas e estudantes da área.",
+                "data": "11 - 06 - 2025"
+                },
+            "4": { 
+                "titulo": "Ganesh publica artigo sobre segurança em IoT", 
+                "descricao": "O grupo publicou um artigo inovador sobre vulnerabilidades em dispositivos IoT, propondo soluções práticas para mitigação de riscos.",
+                "data": "09 - 06 - 2025"
+                },
+            "5": { 
+                "titulo": "Ganesh desenvolve sistema de detecção de intrusão", 
+                "descricao": "O novo sistema criado pelo grupo utiliza inteligência artificial para detectar intrusões em redes com alta precisão.",
+                "data": "08 - 06 - 2025"
+                },
+            "6": { 
+                "titulo": "Ganesh participa de conferência internacional de cibersegurança", 
+                "descricao": "Representantes do grupo apresentaram suas pesquisas na conferência CyberSec Global, recebendo elogios da comunidade internacional.",
+                "data": "07 - 06 - 2025"
+                },
+            "7": { 
+                "titulo": "Ganesh colabora com empresas para melhorar segurança de APIs", 
+                "descricao": "O grupo trabalhou em parceria com empresas de tecnologia para identificar e corrigir falhas de segurança em APIs críticas.",
+                "data": "06 - 06 - 2025"
+                }
+        },
+        "En-us": {
+            "mapa_1": "Homepage",
+            "mapa_2": "News",
+            "noticias_titulo": "[NEWS]",
+            	
+            "0": { 
+                "titulo": "Ganesh wins USP's information security competition", 
+                "descricao": "At the CodelabHacks event at USP, Ganesh takes first place in the event, demonstrating great skill and innovation.",
+                "data": "06 - 14 - 2025"
+                },
+            "1": { 
+                "titulo": "Ganesh discovers critical vulnerability in banking system", 
+                "descricao": "During independent research, Ganesh identified a critical flaw in a banking system, helping to prevent potential cyberattacks.",
+                "data": "06 - 13 - 2025"
+                },
+            "2": { 
+                "titulo": "Ganesh launches malware analysis tool", 
+                "descricao": "The new tool developed by Ganesh enables the identification and neutralization of advanced malware with greater efficiency.",
+                "data": "06 - 12 - 2025"
+                },
+            "3": { 
+                "titulo": "Ganesh conducts workshop on cyber defense", 
+                "descricao": "Ganesh led a hands-on workshop on cyber defense strategies, attracting experts and students in the field.",
+                "data": "06 - 11 - 2025"
+                },
+            "4": { 
+                "titulo": "Ganesh publishes article on IoT security", 
+                "descricao": "The group published an innovative article on vulnerabilities in IoT devices, proposing practical solutions for risk mitigation.",
+                "data": "06 - 09 - 2025"
+                },
+            "5": { 
+                "titulo": "Ganesh develops intrusion detection system", 
+                "descricao": "The new system created by the group uses artificial intelligence to detect network intrusions with high accuracy.",
+                "data": "06 - 08 - 2025"
+                },
+            "6": { 
+                "titulo": "Ganesh participates in international cybersecurity conference", 
+                "descricao": "Group representatives presented their research at the CyberSec Global conference, receiving praise from the international community.",
+                "data": "06 - 07 - 2025"
+                },
+            "7": { 
+                "titulo": "Ganesh collaborates with companies to improve API security", 
+                "descricao": "The group partnered with tech companies to identify and fix security flaws in critical APIs.",
+                "data": "06 - 06 - 2025"
+                }
+        }
+    }
+}

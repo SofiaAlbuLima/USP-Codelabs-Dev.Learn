@@ -14,10 +14,27 @@ Projeto desenvolvido para participar do processo seletivo do grupo de extensão 
 # Cronograma (12/05 - 15/06)
 - Prototipação (12/05 - 15/05): https://13q3ms.axshare.com/?g=4
 - Code da parte estática (17/05)
-- Code da parte dinâmica
+- Code da parte dinâmica (14/06)
 
-# Ideias
-- Responsividade
-- Acessibilidade
-- Patrocinadores
+# Mini Servidor para Rodar o JSON!
+
+## Instalação do Servidor Local (`http-server`)
+
+No terminal, execute o seguinte comando para instalar o servidor de forma global:
+npm install -g http-server
+
+## Como Iniciar o Servidor
+http-server
+⚠️ Importante: Sempre que abrir ou recarregar as páginas no navegador, utilize: Ctrl + F5
+
+## Links das Páginas
+- Página Inicial: http://192.168.0.120:8080/landing-page.html
+- Página de Notícias: http://192.168.0.120:8080/noticias.html
+
+# Imagens do projeto:
+![alt text](image.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 
