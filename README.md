@@ -20,8 +20,8 @@ Projeto desenvolvido para participar do processo seletivo do grupo de extensão 
 
 # 📅 | Cronograma (12/05 - 15/06)
 - Prototipação (12/05 - 15/05): https://13q3ms.axshare.com/?g=4
-- Code da parte estática (17/05)
-- Code da parte dinâmica (14/06)
+- Code da parte estática (17/05 - 21/05)
+- Code da parte dinâmica (14/06 - 15/06)
 
 # 💻 | Mini Servidor para Rodar o JSON!
 No terminal, execute os seguintes comandos para rodar o servidor de forma global:
